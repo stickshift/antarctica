@@ -1,0 +1,9 @@
+.DS_Store
+.ipynb_checkpoints
+project.env
+.build
+.idea
+__pycache__
+notebooks/wandb
+.pytest_cache
+.ruff_cache
