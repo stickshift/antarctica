@@ -1,8 +1,8 @@
 # Antarctica
 
-# Assignment
+## Assignment
 
-## Background
+### Background
 
 Professor Randall McNaughton, a climate scientist, went to Antarctica to place a number of
 climate probes in the ice at random locations in a 20 mile by 20 mile grid. He recorded the
@@ -24,7 +24,7 @@ facing, he doesn’t actually know which coordinate is which. Each probe could b
 places. The distance measurements are however still correct. This data corruption complicates
 the recovery process and the scientific analysis and has him very worried.
 
-## Problem
+### Problem
 
 How much information can we recover about the x, y coordinates simply from the initial distance
 measurements? Try to reconstruct the true x, y positions as well as you can so that the recovery
@@ -36,20 +36,22 @@ closest-point circles. Some do not.
 
 <center><img src="docs/probes.png" width="300"></center>
 
-## Instructions
+### Instructions
 
 Produce a file which has corrected the corruption as best you can. How many holes do you
 estimate they need to dig to recover all 50 probes? Also send us your code, an explanation of
 what it is doing, and instructions for running it.
 
-# Getting Started
+## Getting Started
 
-## Prerequisites
+### Prerequisites
 
 * Python 3.12
 * UV
 
-## Configure Environment
+### Configure Environment
+
+The following should work from either Bash or ZSH.
 
 ```shell
 # Configure environment
@@ -62,3 +64,12 @@ source .venv/bin/activate
 # Launch jupyter
 jupyter lab
 ```
+
+## Notebooks
+
+The following 3 notebooks walk through my analysis from beginning to end. My final "solution" can be found in the
+Summary section of the last notebook.
+
+* [Exploratory Data Analysis](notebooks/01-eda.ipynb)
+* [Neighbor Graphs](notebooks/02-neighbor-graphs.ipynb)
+* [Probe Clusters](notebooks/03-probe-clusters.ipynb)
