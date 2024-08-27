@@ -77,4 +77,4 @@ Summary section of the last notebook.
 ## Source Code
 
 The analysis in the notebooks required a number of utility functions for manipulating the data. Most of this code
-is implemented in `src/antarctica` and verified with tests in `tests/unit`.
+is implemented in [](src/antarctica) and verified with tests in [](tests/unit).
