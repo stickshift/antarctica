@@ -73,3 +73,8 @@ Summary section of the last notebook.
 * [Exploratory Data Analysis](notebooks/01-eda.ipynb)
 * [Neighbor Graphs](notebooks/02-neighbor-graphs.ipynb)
 * [Probe Clusters](notebooks/03-probe-clusters.ipynb)
+
+## Source Code
+
+The analysis in the notebooks required a number of utility functions for manipulating the data. Most of this code
+is implemented in `src/antarctica` and verified with tests in `tests/unit`.
